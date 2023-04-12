@@ -16,4 +16,4 @@
 
 **Сайт**
 
-* [Ссылка на сайт проектной работы](https://github.com/MongushMizhit/russian-travel.git)
+* [Ссылка на сайт проектной работы](https://mongushmizhit.github.io/russian-travel/)
