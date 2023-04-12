@@ -1,0 +1,9 @@
+.header__lang-link {
+    max-width: 30px;
+    text-decoration: underline;
+  }
+
+  .header__lang-link:nth-last-of-type(1) {
+    text-decoration: none;
+    margin-left: 18px;
+  }
