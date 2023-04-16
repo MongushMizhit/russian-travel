@@ -3,28 +3,34 @@
     font-size: 30px;
     font-weight: 400;
     max-width: 640px;
-    margin: 32px auto 0;
+    margin: 32px auto 64px;
   }
 
   @media screen and (max-width: 1024px) {
     .lead__subtitle {
-      margin: 36px auto 0;
+      margin: 36px auto 56px;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .lead__subtitle {
+      margin: 30px auto 50px;
+      max-width: 385px;
+      line-height: 26px;
+      font-size: 20px;
     }
   }
 
   @media screen and (max-width: 485px) {
     .lead__subtitle {
-      margin: 26px auto 0;
-      max-width: 385px;
-      line-height: 26px;
-      font-size: 22px;
+      margin: 26px auto 50px;
     }
   }
 
   @media screen and (max-width: 320px) {
     .lead__subtitle {
       max-width: 288px;
-      margin: 16px auto 0;
+      margin: 16px auto 40px;
       line-height: 20px;
       font-size: 16px;
     }

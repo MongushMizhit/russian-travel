@@ -1,0 +1,16 @@
+.lead__image-container {
+    margin: 0;
+    padding: 0;
+}
+
+  @media screen and (max-width: 485px) {
+    .lead__image-container {
+      margin: 0 1px 0;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .lead__image-container {
+      margin: 0 2px 0;
+    }
+  }

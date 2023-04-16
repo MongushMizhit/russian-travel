@@ -1,13 +1,20 @@
 .footer__copyright {
+    margin: 0;
     line-height: 16px;
     font-size: 14px;
     font-weight: 400;
+    display: flex;
+  }
+
+  @media screen and (max-width: 730px) {
+    .footer__copyright {
+      margin: 15px 0 0;
+    }
   }
 
   @media screen and (max-width: 485px) {
     .footer__copyright {
       line-height: 15px;
-      font-size: 14px;
       margin: 48px 0 0;
     }
   }
@@ -15,7 +22,6 @@
   @media screen and (max-width: 320px) {
     .footer__copyright {
       line-height: 14px;
-      font-size: 14px;
       margin: 48px 0 0;
     }
   }

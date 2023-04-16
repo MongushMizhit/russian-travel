@@ -20,9 +20,8 @@
     }
   }
 
-  @media screen and (max-width: 715px) {
+  @media screen and (max-width: 730px) {
     .footer {
-      max-width: 720px;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -32,9 +31,6 @@
   @media screen and (max-width: 485px) {
     .footer {
       max-width: 286px;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
       margin: 72px 122px 24px 20px;
     }
   }
@@ -42,9 +38,6 @@
   @media screen and (max-width: 320px) {
     .footer {
       max-width: 186px;
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
       margin: 64px 118px 24px 16px;
     }
   }

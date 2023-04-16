@@ -6,17 +6,23 @@
     margin: 0 auto;
   }
 
-  @media screen and (max-width: 625px) {
+  @media screen and (max-width: 690px) {
     .lead__title {
-      line-height: 92%;
-      font-size: 12vh;
+      line-height: 82%;
+      font-size: 60px;
+    }
+  }
+
+  @media screen and (max-width: 540px) {
+    .lead__title {
+      font-size: 55px;
     }
   }
 
   @media screen and (max-width: 485px) {
     .lead__title {
       line-height: 58px;
-      font-size: 47px;
+      font-size: 43px;
     }
   }
 
