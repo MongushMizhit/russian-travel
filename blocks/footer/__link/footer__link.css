@@ -5,6 +5,7 @@
     color: #ffffff;
     text-decoration: none;
     transition: color .2s linear;
+    max-width: fit-content;
   }
 
   @media screen and (max-width: 767px) {
